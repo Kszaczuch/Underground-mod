@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "undergroundmod",
+	"version": "${version}",
+	"name": "Underground Mod",
+	"description": "A mod adding underground jungle and underground desert from terraria!",
+	"authors": [
+		"Kszaczuch"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/undergroundmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kszaczuch.undergroundmod.UndergroundMod"
+		],
+		"client": [
+			"net.kszaczuch.undergroundmod.UndergroundModClient"
+		],
+		"fabric-datagen": [
+			"net.kszaczuch.undergroundmod.UndergroundModDataGenerator"
+		]
+	},
+	"mixins": [
+		"undergroundmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
