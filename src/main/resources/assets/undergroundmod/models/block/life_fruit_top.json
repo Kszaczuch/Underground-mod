@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "undergroundmod:block/life_fruit_top"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "undergroundmod:block/sky_blue_flower_bottom"
+    },
+    "half=upper": {
+      "model": "undergroundmod:block/sky_blue_flower_top"
+    }
+  }
+}

@@ -1,7 +1,13 @@
 {
   "item.undergroundmod.stinger" : "Stinger",
-  "item.undergroundmod.life_fruit_item" : "Life Fruit",
   "item.undergroundmod.jungle_spores_item" : "Jungle Spores",
 
-  "itemgroup.items" : "Underground Mod Items"
+  "block.undergroundmod.chlorophyte_block" : "Block of Chlorophyte",
+  "block.undergroundmod.chlorophyte_ore" : "Chlorophyte Ore",
+  "block.undergroundmod.deepslate_chlorophyte_ore" : "Deepslate Chlorophyte Ore",
+  "block.undergroundmod.life_fruit" : "Life Fruit",
+  "block.undergroundmod.sky_blue_flower" : "Sky Blue Flower",
+
+  "itemgroup.items" : "Underground Mod Items",
+  "itemgroup.blocks" : "Underground Mod Blocks"
 }

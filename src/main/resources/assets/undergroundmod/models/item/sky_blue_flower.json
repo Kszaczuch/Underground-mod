@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures" : {
-    "layer0": "undergroundmod:item/life_fruit_item"
+    "layer0": "undergroundmod:item/sky_blue_flower"
   }
 }

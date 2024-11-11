@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "undergroundmod:block/life_fruit_bottom"
+    },
+    "half=upper": {
+      "model": "undergroundmod:block/life_fruit_top"
+    }
+  }
+}
