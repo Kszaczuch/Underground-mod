@@ -3,8 +3,8 @@ package net.kszaczuch.undergroundmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kszaczuch.undergroundmod.UndergroundMod;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -22,11 +22,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
     public static final Block LIFE_FRUIT = registerBlock("life_fruit",
-            new Block(FabricBlockSettings.copyOf(Blocks.PEONY)));
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.PEONY).nonOpaque().noCollision()));
 
     public static final Block SKY_BLUE_FLOWER = registerBlock("sky_blue_flower",
-            new Block(FabricBlockSettings.copyOf(Blocks.PEONY)));
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.PEONY).nonOpaque().noCollision()));
 
+    public static final Block JUNGLE_SPORES = registerBlock("jungle_spores",
+            new PlantBlock(FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque().noCollision()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

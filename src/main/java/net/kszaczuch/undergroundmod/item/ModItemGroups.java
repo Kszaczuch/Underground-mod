@@ -18,7 +18,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.LIFE_FRUIT);
                         entries.add(ModBlocks.SKY_BLUE_FLOWER);
-                        entries.add(ModItems.JUNGLE_SPORES_ITEM);
+                        entries.add(ModBlocks.JUNGLE_SPORES);
                         entries.add(ModItems.STINGER);
 
                     }).build());

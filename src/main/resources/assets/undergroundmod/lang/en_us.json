@@ -7,6 +7,9 @@
   "block.undergroundmod.deepslate_chlorophyte_ore" : "Deepslate Chlorophyte Ore",
   "block.undergroundmod.life_fruit" : "Life Fruit",
   "block.undergroundmod.sky_blue_flower" : "Sky Blue Flower",
+  "block.undergroundmod.jungle_spores" : "Jungle Spores",
+  "block.undergroundmod.chlorophyte_ingot" : "Chlorophyte Ingot",
+  "block.undergroundmod.raw_chlorophyte" : "Raw Chlorophyte",
 
   "itemgroup.items" : "Underground Mod Items",
   "itemgroup.blocks" : "Underground Mod Blocks"

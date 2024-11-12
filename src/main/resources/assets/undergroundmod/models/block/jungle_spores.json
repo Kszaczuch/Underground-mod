@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "undergroundmod:block/sky_blue_flower_bottom"
+    "cross": "undergroundmod:block/jungle_spores"
   }
 }

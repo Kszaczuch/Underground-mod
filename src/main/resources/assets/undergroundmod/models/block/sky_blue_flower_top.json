@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/tinted_cross",
+  "parent": "minecraft:block/cross",
   "textures": {
     "cross": "undergroundmod:block/sky_blue_flower_top"
   }

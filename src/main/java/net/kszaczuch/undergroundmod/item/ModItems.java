@@ -14,13 +14,16 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item STINGER = registerItem("stinger", new Item(new FabricItemSettings()));
-    public static final Item JUNGLE_SPORES_ITEM = registerItem("jungle_spores_item", new Item(new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_INGOT = registerItem("chlorophyte_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_CHLOROPHYTE = registerItem("raw_chlorophyte", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STINGER);
         entries.add(ModBlocks.LIFE_FRUIT);
         entries.add(ModBlocks.SKY_BLUE_FLOWER);
-        entries.add(JUNGLE_SPORES_ITEM);
+        entries.add(ModBlocks.JUNGLE_SPORES);
+        entries.add(RAW_CHLOROPHYTE);
+        entries.add(CHLOROPHYTE_INGOT);
     }
 
     private static Item registerItem(String name, Item item) {
