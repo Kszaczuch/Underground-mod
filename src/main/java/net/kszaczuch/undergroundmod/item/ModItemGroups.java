@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SKY_BLUE_FLOWER);
                         entries.add(ModBlocks.JUNGLE_SPORES);
                         entries.add(ModItems.STINGER);
+                        entries.add(ModItems.RAW_CHLOROPHYTE);
+                        entries.add(ModItems.CHLOROPHYTE_INGOT);
 
                     }).build());
 
