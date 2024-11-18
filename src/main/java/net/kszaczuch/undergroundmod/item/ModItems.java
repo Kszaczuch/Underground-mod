@@ -5,8 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kszaczuch.undergroundmod.UndergroundMod;
 import net.kszaczuch.undergroundmod.block.ModBlocks;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -16,6 +15,17 @@ public class ModItems {
     public static final Item STINGER = registerItem("stinger", new Item(new FabricItemSettings()));
     public static final Item CHLOROPHYTE_INGOT = registerItem("chlorophyte_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_CHLOROPHYTE = registerItem("raw_chlorophyte", new Item(new FabricItemSettings()));
+
+    public static final Item CHLOROPHYTE_PICKAXE = registerItem("chlorophyte_pickaxe",
+            new PickaxeItem(ModToolMaterial.CHLOROPHYTE, 2, 0.5f, new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_SWORD = registerItem("chlorophyte_sword",
+            new SwordItem(ModToolMaterial.CHLOROPHYTE, 7, 1.6f, new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_SHOVEL = registerItem("chlorophyte_shovel",
+            new ShovelItem(ModToolMaterial.CHLOROPHYTE, 3, 0.5f, new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_HOE = registerItem("chlorophyte_hoe",
+            new HoeItem(ModToolMaterial.CHLOROPHYTE, 1, 1.0f, new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_AXE = registerItem("chlorophyte_axe",
+            new AxeItem(ModToolMaterial.CHLOROPHYTE, 9, 0.5f, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STINGER);

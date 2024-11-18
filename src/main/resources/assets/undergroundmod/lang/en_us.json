@@ -3,6 +3,11 @@
   "item.undergroundmod.jungle_spores_item" : "Jungle Spores",
   "item.undergroundmod.chlorophyte_ingot" : "Chlorophyte Ingot",
   "item.undergroundmod.raw_chlorophyte" : "Raw Chlorophyte",
+  "item.undergroundmod.chlorophyte_pickaxe" : "Chlorophyte Pickaxe",
+  "item.undergroundmod.chlorophyte_axe" : "Chlorophyte Axe",
+  "item.undergroundmod.chlorophyte_shovel" : "Chlorophyte Shovel",
+  "item.undergroundmod.chlorophyte_sword" : "Chlorophyte Sword",
+  "item.undergroundmod.chlorophyte_hoe" : "Chlorophyte Hoe",
 
   "block.undergroundmod.chlorophyte_block" : "Block of Chlorophyte",
   "block.undergroundmod.chlorophyte_ore" : "Chlorophyte Ore",
@@ -12,5 +17,6 @@
   "block.undergroundmod.jungle_spores" : "Jungle Spores",
 
   "itemgroup.items" : "Underground Mod Items",
+  "itemgroup.tools" : "Underground Mod Tools",
   "itemgroup.blocks" : "Underground Mod Blocks"
 }

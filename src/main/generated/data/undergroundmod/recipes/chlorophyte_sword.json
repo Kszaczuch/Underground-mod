@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "undergroundmod:chlorophyte_ingot"
+    }
+  },
+  "pattern": [
+    "S",
+    "S",
+    "R"
+  ],
+  "result": {
+    "item": "undergroundmod:chlorophyte_sword"
+  },
+  "show_notification": true
+}

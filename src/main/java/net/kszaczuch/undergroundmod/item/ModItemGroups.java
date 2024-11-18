@@ -36,6 +36,19 @@ public class ModItemGroups {
 
                     })).build());
 
+    public static final ItemGroup MOD_TOOLS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(UndergroundMod.MOD_ID, "tools"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tools"))
+                    .icon(() -> new ItemStack(ModItems.CHLOROPHYTE_PICKAXE)).entries(((displayContext, entries) -> {
+
+                        entries.add(ModItems.CHLOROPHYTE_PICKAXE);
+                        entries.add(ModItems.CHLOROPHYTE_SHOVEL);
+                        entries.add(ModItems.CHLOROPHYTE_AXE);
+                        entries.add(ModItems.CHLOROPHYTE_HOE);
+                        entries.add(ModItems.CHLOROPHYTE_SWORD);
+
+                    })).build());
+
 
     public static void registerItemGroups() {
         UndergroundMod.LOGGER.info("Registering item groups for " + UndergroundMod.MOD_ID);
