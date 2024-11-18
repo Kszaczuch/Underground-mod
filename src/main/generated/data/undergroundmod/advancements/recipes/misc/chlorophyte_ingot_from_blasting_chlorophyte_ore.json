@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chlorophyte_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:chlorophyte_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:chlorophyte_ingot_from_blasting_chlorophyte_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_chlorophyte_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:chlorophyte_ingot_from_blasting_chlorophyte_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

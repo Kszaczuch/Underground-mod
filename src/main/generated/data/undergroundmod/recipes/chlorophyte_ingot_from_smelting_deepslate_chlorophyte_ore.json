@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "chlorophyte",
+  "ingredient": {
+    "item": "undergroundmod:deepslate_chlorophyte_ore"
+  },
+  "result": "undergroundmod:chlorophyte_ingot"
+}
