@@ -10,13 +10,14 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block CHLOROPHYTE_ORE = registerBlock("chlorophyte_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE), UniformIntProvider.create(4, 7)));
 
     public static final Block DEEPSLATE_CHLOROPHYTE_ORE = registerBlock("deepslate_chlorophyte_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE), UniformIntProvider.create(4, 7)));
 
     public static final Block CHLOROPHYTE_BLOCK = registerBlock("chlorophyte_block",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
