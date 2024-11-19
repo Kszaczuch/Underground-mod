@@ -45,7 +45,19 @@ public class ModItemGroups {
                         entries.add(ModItems.CHLOROPHYTE_SHOVEL);
                         entries.add(ModItems.CHLOROPHYTE_AXE);
                         entries.add(ModItems.CHLOROPHYTE_HOE);
+
+                    })).build());
+
+    public static final ItemGroup MOD_COMBAT = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(UndergroundMod.MOD_ID, "combat"),
+            FabricItemGroup .builder().displayName(Text.translatable("itemGroup.combat"))
+                    .icon(() -> new ItemStack(ModItems.CHLOROPHYTE_SWORD)).entries(((displayContext, entries) -> {
+
                         entries.add(ModItems.CHLOROPHYTE_SWORD);
+                        entries.add(ModItems.CHLOROPHYTE_HELMET);
+                        entries.add(ModItems.CHLOROPHYTE_CHESTPLATE);
+                        entries.add(ModItems.CHLOROPHYTE_LEGGINGS);
+                        entries.add(ModItems.CHLOROPHYTE_BOOTS);
 
                     })).build());
 

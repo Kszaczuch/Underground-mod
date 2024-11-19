@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "undergroundmod:chlorophyte_helmet",
+    "undergroundmod:chlorophyte_chestplate",
+    "undergroundmod:chlorophyte_leggings",
+    "undergroundmod:chlorophyte_boots"
+  ]
+}

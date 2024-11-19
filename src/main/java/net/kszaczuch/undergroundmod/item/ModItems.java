@@ -27,6 +27,15 @@ public class ModItems {
     public static final Item CHLOROPHYTE_AXE = registerItem("chlorophyte_axe",
             new AxeItem(ModToolMaterial.CHLOROPHYTE, 9, 0.5f, new FabricItemSettings()));
 
+    public static final Item CHLOROPHYTE_HELMET = registerItem("chlorophyte_helmet",
+            new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_CHESTPLATE = registerItem("chlorophyte_chestplate",
+            new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_LEGGINGS = registerItem("chlorophyte_leggings",
+            new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item CHLOROPHYTE_BOOTS = registerItem("chlorophyte_boots",
+            new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STINGER);
         entries.add(ModBlocks.LIFE_FRUIT);
