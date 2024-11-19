@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.kszaczuch.undergroundmod.block.ModBlocks;
 import net.kszaczuch.undergroundmod.item.ModItemGroups;
 import net.kszaczuch.undergroundmod.item.ModItems;
+import net.kszaczuch.undergroundmod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,7 @@ public class UndergroundMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

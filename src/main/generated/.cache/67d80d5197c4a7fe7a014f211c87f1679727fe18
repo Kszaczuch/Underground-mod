@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-19T18:53:26.2626651	Underground Mod/Model Definitions
+// 1.20.1	2024-11-19T20:47:59.4702525	Underground Mod/Model Definitions
 cb152234762faa2e72b739132457c03d90d3aa41 assets\undergroundmod\models\item\chlorophyte_leggings.json
 3274fbb656fce66ad21c92016790abf6d36c642d assets\undergroundmod\models\item\chlorophyte_ingot.json
 2296a771007387bbc4a0a1f997b08db849d0aad3 assets\undergroundmod\models\item\chlorophyte_boots_diamond_trim.json
@@ -56,7 +56,7 @@ b3f00851ef88b426ece43a089dfe4ab98aa592f7 assets\undergroundmod\models\item\chlor
 9e867444f1a15cdac6f6896d12b72a7bf4fa8af2 assets\undergroundmod\models\item\chlorophyte_helmet_redstone_trim.json
 55493b00e44c27e6136cc5e8492c291fd2010ffa assets\undergroundmod\models\item\chlorophyte_chestplate_copper_trim.json
 0be87dbcef8a8397fa8e2c8497fa3eba788829f5 assets\undergroundmod\models\item\chlorophyte_boots_quartz_trim.json
-421d9dca6bcf1915a767ead7dd7838dbdf2acf1b assets\undergroundmod\models\item\chlorophyte_helmet_copper_trim.json
 085b3502acce7406e54326657bbe6d676a0e0e70 assets\undergroundmod\models\item\raw_chlorophyte.json
+421d9dca6bcf1915a767ead7dd7838dbdf2acf1b assets\undergroundmod\models\item\chlorophyte_helmet_copper_trim.json
 88523e08bda8198d97005cda4bd4eaa5faf903dc assets\undergroundmod\models\item\chlorophyte_chestplate_iron_trim.json
 6083e22a309cd430fcf928a276c1d47c4e573385 assets\undergroundmod\models\item\chlorophyte_sword.json
