@@ -22,6 +22,10 @@ public class ModItemGroups {
                         entries.add(ModItems.STINGER);
                         entries.add(ModItems.RAW_CHLOROPHYTE);
                         entries.add(ModItems.CHLOROPHYTE_INGOT);
+                        entries.add(ModItems.JUNGLE_MUSIC_DISC);
+                        entries.add(ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC);
+                        entries.add(ModItems.UNDERGROUND_DESERT_MUSIC_DISC);
+                        entries.add(ModItems.UNDERGROUND_ICE_MUSIC_DISC);
 
                     }).build());
 

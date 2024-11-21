@@ -15,6 +15,16 @@
   "item.undergroundmod.chlorophyte_leggings" : "Chlorophyte Leggings",
   "item.undergroundmod.chlorophyte_boots" : "Chlorophyte Boots",
 
+  "item.undergroundmod.jungle_music_disc": "Jungle Music Disc",
+  "item.undergroundmod.jungle_music_disc.desc": "Scott Lloyd Shelly - Jungle",
+  "item.undergroundmod.underground_jungle_music_disc": "Underground Jungle Music Disc",
+  "item.undergroundmod.underground_jungle_music_disc.desc": "Scott Lloyd Shelly - Underground Jungle",
+  "item.undergroundmod.underground_ice_music_disc": "Underground Ice Music Disc",
+  "item.undergroundmod.underground_ice_music_disc.desc": "Scott Lloyd Shelly - Underground Ice",
+  "item.undergroundmod.underground_desert_music_disc": "Underground Desert Music Disc",
+  "item.undergroundmod.underground_desert_music_disc.desc": "Scott Lloyd Shelly - Underground Desert",
+
+
   "block.undergroundmod.chlorophyte_block" : "Block of Chlorophyte",
   "block.undergroundmod.chlorophyte_ore" : "Chlorophyte Ore",
   "block.undergroundmod.deepslate_chlorophyte_ore" : "Deepslate Chlorophyte Ore",

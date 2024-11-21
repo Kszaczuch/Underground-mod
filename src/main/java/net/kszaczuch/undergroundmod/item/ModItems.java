@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kszaczuch.undergroundmod.UndergroundMod;
 import net.kszaczuch.undergroundmod.block.ModBlocks;
+import net.kszaczuch.undergroundmod.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -35,6 +36,15 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_BOOTS = registerItem("chlorophyte_boots",
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item JUNGLE_MUSIC_DISC = registerItem("jungle_music_disc",
+            new MusicDiscItem(7, ModSounds.JUNGLE, new FabricItemSettings().maxCount(1), 164));
+    public static final Item UNDERGROUND_JUNGLE_MUSIC_DISC = registerItem("underground_jungle_music_disc",
+            new MusicDiscItem(7, ModSounds.UNDERGROUND_JUNGLE, new FabricItemSettings().maxCount(1), 108));
+    public static final Item UNDERGROUND_ICE_MUSIC_DISC = registerItem("underground_ice_music_disc",
+            new MusicDiscItem(7, ModSounds.UNDERGROUND_ICE, new FabricItemSettings().maxCount(1), 84));
+    public static final Item UNDERGROUND_DESERT_MUSIC_DISC = registerItem("underground_desert_music_disc",
+            new MusicDiscItem(7, ModSounds.UNDERGROUND_DESERT, new FabricItemSettings().maxCount(1), 121));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STINGER);

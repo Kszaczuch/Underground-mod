@@ -18,5 +18,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.CHLOROPHYTE_HELMET,ModItems.CHLOROPHYTE_CHESTPLATE,ModItems.CHLOROPHYTE_LEGGINGS,ModItems.CHLOROPHYTE_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_DESERT_MUSIC_DISC,ModItems.UNDERGROUND_ICE_MUSIC_DISC);
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_DESERT_MUSIC_DISC,ModItems.UNDERGROUND_ICE_MUSIC_DISC);
     }
 }

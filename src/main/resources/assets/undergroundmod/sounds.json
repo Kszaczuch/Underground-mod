@@ -1,0 +1,34 @@
+{
+  "underground_jungle": {
+    "sounds": [
+      {
+        "name": "undergroundmod:music_underground_jungle",
+        "stream": true
+      }
+    ]
+  },
+  "underground_desert": {
+    "sounds": [
+      {
+        "name": "undergroundmod:music_underground_desert",
+        "stream": true
+      }
+    ]
+  },
+  "underground_ice": {
+    "sounds": [
+      {
+        "name": "undergroundmod:music_underground_ice",
+        "stream": true
+      }
+    ]
+  },
+  "jungle": {
+    "sounds": [
+      {
+        "name": "undergroundmod:music_jungle",
+        "stream": true
+      }
+    ]
+  }
+}

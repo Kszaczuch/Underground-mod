@@ -27,6 +27,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CHLOROPHYTE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CHLOROPHYTE, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.JUNGLE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNDERGROUND_DESERT_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNDERGROUND_ICE_MUSIC_DISC, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.CHLOROPHYTE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHLOROPHYTE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHLOROPHYTE_SHOVEL, Models.HANDHELD);

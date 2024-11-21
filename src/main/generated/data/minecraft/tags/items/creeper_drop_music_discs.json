@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "undergroundmod:jungle_music_disc",
+    "undergroundmod:underground_jungle_music_disc",
+    "undergroundmod:underground_desert_music_disc",
+    "undergroundmod:underground_ice_music_disc"
+  ]
+}

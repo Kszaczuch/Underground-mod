@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "undergroundmod:item/underground_jungle_music_disc"
+  }
+}
