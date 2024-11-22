@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "undergroundmod:item/shroomite_hoe"
+  }
+}

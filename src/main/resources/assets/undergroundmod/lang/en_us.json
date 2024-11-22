@@ -2,37 +2,52 @@
   "item.undergroundmod.stinger" : "Stinger",
   "item.undergroundmod.jungle_spores_item" : "Jungle Spores",
   "item.undergroundmod.chlorophyte_ingot" : "Chlorophyte Ingot",
+  "item.undergroundmod.shroomite_ingot" : "Shroomite Ingot",
   "item.undergroundmod.raw_chlorophyte" : "Raw Chlorophyte",
+  "item.undergroundmod.shroomite_upgrade_smithing_template" : "Shroomite Upgrade Smithing Template",
 
   "item.undergroundmod.chlorophyte_pickaxe" : "Chlorophyte Pickaxe",
   "item.undergroundmod.chlorophyte_axe" : "Chlorophyte Axe",
   "item.undergroundmod.chlorophyte_shovel" : "Chlorophyte Shovel",
   "item.undergroundmod.chlorophyte_sword" : "Chlorophyte Sword",
   "item.undergroundmod.chlorophyte_hoe" : "Chlorophyte Hoe",
+  "item.undergroundmod.shroomite_pickaxe" : "Shroomite Pickaxe",
+  "item.undergroundmod.shroomite_axe" : "Shroomite Axe",
+  "item.undergroundmod.shroomite_shovel" : "Shroomite Shovel",
+  "item.undergroundmod.shroomite_sword" : "Shroomite Sword",
+  "item.undergroundmod.shroomite_hoe" : "Shroomite Hoe",
+
 
   "item.undergroundmod.chlorophyte_helmet" : "Chlorophyte Helmet",
   "item.undergroundmod.chlorophyte_chestplate" : "Chlorophyte Chestplate",
   "item.undergroundmod.chlorophyte_leggings" : "Chlorophyte Leggings",
   "item.undergroundmod.chlorophyte_boots" : "Chlorophyte Boots",
+  "item.undergroundmod.shroomite_helmet" : "Chlorophyte Helmet",
+  "item.undergroundmod.shroomite_chestplate" : "Chlorophyte Chestplate",
+  "item.undergroundmod.shroomite_leggings" : "Chlorophyte Leggings",
+  "item.undergroundmod.shroomite_boots" : "Chlorophyte Boots",
 
-  "item.undergroundmod.jungle_music_disc": "Jungle Music Disc",
+  "item.undergroundmod.jungle_music_disc": "Music Disc",
   "item.undergroundmod.jungle_music_disc.desc": "Scott Lloyd Shelly - Jungle",
-  "item.undergroundmod.underground_jungle_music_disc": "Underground Jungle Music Disc",
+  "item.undergroundmod.underground_jungle_music_disc": "Music Disc",
   "item.undergroundmod.underground_jungle_music_disc.desc": "Scott Lloyd Shelly - Underground Jungle",
-  "item.undergroundmod.underground_ice_music_disc": "Underground Ice Music Disc",
+  "item.undergroundmod.underground_ice_music_disc": "Music Disc",
   "item.undergroundmod.underground_ice_music_disc.desc": "Scott Lloyd Shelly - Underground Ice",
-  "item.undergroundmod.underground_desert_music_disc": "Underground Desert Music Disc",
+  "item.undergroundmod.underground_desert_music_disc": "Music Disc",
   "item.undergroundmod.underground_desert_music_disc.desc": "Scott Lloyd Shelly - Underground Desert",
 
 
   "block.undergroundmod.chlorophyte_block" : "Block of Chlorophyte",
+  "block.undergroundmod.shroomite_block" : "Block of Shroomite",
   "block.undergroundmod.chlorophyte_ore" : "Chlorophyte Ore",
   "block.undergroundmod.deepslate_chlorophyte_ore" : "Deepslate Chlorophyte Ore",
   "block.undergroundmod.life_fruit" : "Life Fruit",
   "block.undergroundmod.sky_blue_flower" : "Sky Blue Flower",
   "block.undergroundmod.jungle_spores" : "Jungle Spores",
+  "block.undergroundmod.blue_mushroom" : "Blue Mushroom",
 
   "itemgroup.items" : "Underground Mod Items",
   "itemgroup.tools" : "Underground Mod Tools",
-  "itemgroup.blocks" : "Underground Mod Blocks"
+  "itemgroup.blocks" : "Underground Mod Blocks",
+  "itemgroup.combat" : "Underground Mod Combat"
 }

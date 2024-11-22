@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chlorophyte_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:chlorophyte_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_shroomite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:shroomite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_shroomite_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:shroomite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:shroomite_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shroomite_upgrade_smithing_template",
+      "has_chlorophyte_helmet",
+      "has_shroomite_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:shroomite_helmet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

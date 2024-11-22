@@ -23,9 +23,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.CHLOROPHYTE_BLOCK);
+        addDrop(ModBlocks.SHROOMITE_BLOCK);
         addDrop(ModBlocks.JUNGLE_SPORES);
         addDrop(ModBlocks.SKY_BLUE_FLOWER);
         addDrop(ModBlocks.LIFE_FRUIT);
+        addDrop(ModBlocks.BLUE_MUSHROOM);
 
         addDrop(ModBlocks.CHLOROPHYTE_ORE, chlorophyteOreDrops(ModBlocks.CHLOROPHYTE_ORE, ModItems.RAW_CHLOROPHYTE));
         addDrop(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE, chlorophyteOreDrops(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE, ModItems.RAW_CHLOROPHYTE));

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "undergroundmod:chlorophyte_ingot"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "S S"
+  ],
+  "result": {
+    "item": "undergroundmod:chlorophyte_helmet"
+  },
+  "show_notification": true
+}

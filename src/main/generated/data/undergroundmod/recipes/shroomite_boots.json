@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "undergroundmod:shroomite_ingot"
+  },
+  "base": {
+    "item": "undergroundmod:chlorophyte_boots"
+  },
+  "result": {
+    "item": "undergroundmod:shroomite_boots"
+  },
+  "template": {
+    "item": "undergroundmod:shroomite_upgrade_smithing_template"
+  }
+}

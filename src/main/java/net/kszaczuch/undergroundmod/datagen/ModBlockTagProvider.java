@@ -20,10 +20,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CHLOROPHYTE_BLOCK)
+                .add(ModBlocks.SHROOMITE_BLOCK)
                 .add(ModBlocks.CHLOROPHYTE_ORE)
                 .add(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE);
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.CHLOROPHYTE_BLOCK)
+                .add(ModBlocks.SHROOMITE_BLOCK)
                 .add(ModBlocks.CHLOROPHYTE_ORE)
                 .add(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE);
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")));

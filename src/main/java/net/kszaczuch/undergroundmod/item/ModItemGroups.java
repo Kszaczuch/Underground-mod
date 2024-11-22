@@ -22,6 +22,9 @@ public class ModItemGroups {
                         entries.add(ModItems.STINGER);
                         entries.add(ModItems.RAW_CHLOROPHYTE);
                         entries.add(ModItems.CHLOROPHYTE_INGOT);
+                        entries.add(ModItems.SHROOMITE_INGOT);
+                        entries.add(ModItems.SHROOMITE_UPGRADE_SMITHING_TEMPLATE);
+                        entries.add(ModBlocks.BLUE_MUSHROOM);
                         entries.add(ModItems.JUNGLE_MUSIC_DISC);
                         entries.add(ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC);
                         entries.add(ModItems.UNDERGROUND_DESERT_MUSIC_DISC);
@@ -37,6 +40,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHLOROPHYTE_BLOCK);
                         entries.add(ModBlocks.CHLOROPHYTE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE);
+                        entries.add(ModBlocks.SHROOMITE_BLOCK);
 
                     })).build());
 
@@ -49,6 +53,10 @@ public class ModItemGroups {
                         entries.add(ModItems.CHLOROPHYTE_SHOVEL);
                         entries.add(ModItems.CHLOROPHYTE_AXE);
                         entries.add(ModItems.CHLOROPHYTE_HOE);
+                        entries.add(ModItems.SHROOMITE_PICKAXE);
+                        entries.add(ModItems.SHROOMITE_SHOVEL);
+                        entries.add(ModItems.SHROOMITE_AXE);
+                        entries.add(ModItems.SHROOMITE_HOE);
 
                     })).build());
 
@@ -58,10 +66,17 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CHLOROPHYTE_SWORD)).entries(((displayContext, entries) -> {
 
                         entries.add(ModItems.CHLOROPHYTE_SWORD);
+                        entries.add(ModItems.CHLOROPHYTE_AXE);
                         entries.add(ModItems.CHLOROPHYTE_HELMET);
                         entries.add(ModItems.CHLOROPHYTE_CHESTPLATE);
                         entries.add(ModItems.CHLOROPHYTE_LEGGINGS);
                         entries.add(ModItems.CHLOROPHYTE_BOOTS);
+                        entries.add(ModItems.SHROOMITE_SWORD);
+                        entries.add(ModItems.SHROOMITE_AXE);
+                        entries.add(ModItems.SHROOMITE_HELMET);
+                        entries.add(ModItems.SHROOMITE_CHESTPLATE);
+                        entries.add(ModItems.SHROOMITE_LEGGINGS);
+                        entries.add(ModItems.SHROOMITE_BOOTS);
 
                     })).build());
 

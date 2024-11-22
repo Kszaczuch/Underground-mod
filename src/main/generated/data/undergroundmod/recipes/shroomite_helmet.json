@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "undergroundmod:shroomite_ingot"
+  },
+  "base": {
+    "item": "undergroundmod:chlorophyte_helmet"
+  },
+  "result": {
+    "item": "undergroundmod:shroomite_helmet"
+  },
+  "template": {
+    "item": "undergroundmod:shroomite_upgrade_smithing_template"
+  }
+}

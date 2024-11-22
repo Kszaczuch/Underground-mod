@@ -17,8 +17,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHLOROPHYTE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SHROOMITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHLOROPHYTE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.BLUE_MUSHROOM, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override
@@ -26,6 +28,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STINGER, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHLOROPHYTE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CHLOROPHYTE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHROOMITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHROOMITE_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.JUNGLE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC, Models.GENERATED);
@@ -37,10 +41,20 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CHLOROPHYTE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHLOROPHYTE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHLOROPHYTE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHROOMITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHROOMITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHROOMITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHROOMITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHROOMITE_HOE, Models.HANDHELD);
+
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHLOROPHYTE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHLOROPHYTE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHLOROPHYTE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHLOROPHYTE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHROOMITE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHROOMITE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHROOMITE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SHROOMITE_BOOTS));
     }
 }

@@ -8,7 +8,10 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     CHLOROPHYTE(MiningLevels.DIAMOND, 1800, 8.5f, 3.5f, 12,
-            () -> Ingredient.ofItems(ModItems.CHLOROPHYTE_INGOT));
+            () -> Ingredient.ofItems(ModItems.CHLOROPHYTE_INGOT)),
+    SHROOMITE(MiningLevels.NETHERITE, 2500, 10.0f, 5.0f, 15,
+            () -> Ingredient.ofItems(ModItems.SHROOMITE_INGOT))
+    ;
 
 
     private final int miningLevel;

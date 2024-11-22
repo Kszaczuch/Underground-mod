@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "undergroundmod:shroomite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "undergroundmod:shroomite_ingot"
+  }
+}

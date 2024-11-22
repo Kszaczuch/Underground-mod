@@ -16,17 +16,29 @@ public class ModItems {
     public static final Item STINGER = registerItem("stinger", new Item(new FabricItemSettings()));
     public static final Item CHLOROPHYTE_INGOT = registerItem("chlorophyte_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_CHLOROPHYTE = registerItem("raw_chlorophyte", new Item(new FabricItemSettings()));
+    public static final Item SHROOMITE_INGOT = registerItem("shroomite_ingot", new Item(new FabricItemSettings()));
+    public static final Item SHROOMITE_UPGRADE_SMITHING_TEMPLATE = registerItem("shroomite_upgrade_smithing_template", new Item(new FabricItemSettings()));
 
     public static final Item CHLOROPHYTE_PICKAXE = registerItem("chlorophyte_pickaxe",
-            new PickaxeItem(ModToolMaterial.CHLOROPHYTE, 2, 0.5f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.CHLOROPHYTE, 0, -2.3f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_SWORD = registerItem("chlorophyte_sword",
-            new SwordItem(ModToolMaterial.CHLOROPHYTE, 7, 1.6f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.CHLOROPHYTE, 3, -1.9f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_SHOVEL = registerItem("chlorophyte_shovel",
             new ShovelItem(ModToolMaterial.CHLOROPHYTE, 3, 0.5f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_HOE = registerItem("chlorophyte_hoe",
             new HoeItem(ModToolMaterial.CHLOROPHYTE, 1, 1.0f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_AXE = registerItem("chlorophyte_axe",
-            new AxeItem(ModToolMaterial.CHLOROPHYTE, 9, 0.5f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.CHLOROPHYTE, 4.5f, -2.5f, new FabricItemSettings()));
+    public static final Item SHROOMITE_PICKAXE = registerItem("shroomite_pickaxe",
+            new PickaxeItem(ModToolMaterial.SHROOMITE, 2, -2.3f, new FabricItemSettings()));
+    public static final Item SHROOMITE_AXE = registerItem("shroomite_axe",
+            new AxeItem(ModToolMaterial.SHROOMITE, 6.0f, -2.5f, new FabricItemSettings()));
+    public static final Item SHROOMITE_SWORD = registerItem("shroomite_sword",
+            new SwordItem(ModToolMaterial.SHROOMITE, 4, -1.9f, new FabricItemSettings()));
+    public static final Item SHROOMITE_SHOVEL = registerItem("shroomite_shovel",
+            new ShovelItem(ModToolMaterial.SHROOMITE, 2, -2.5f, new FabricItemSettings()));
+    public static final Item SHROOMITE_HOE = registerItem("shroomite_hoe",
+            new HoeItem(ModToolMaterial.SHROOMITE, -3, 0, new FabricItemSettings()));
 
     public static final Item CHLOROPHYTE_HELMET = registerItem("chlorophyte_helmet",
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -36,6 +48,14 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_BOOTS = registerItem("chlorophyte_boots",
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item SHROOMITE_HELMET = registerItem("shroomite_helmet",
+            new ArmorItem(ModArmorMaterials.SHROOMITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SHROOMITE_CHESTPLATE = registerItem("shroomite_chestplate",
+            new ArmorItem(ModArmorMaterials.SHROOMITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SHROOMITE_LEGGINGS = registerItem("shroomite_leggings",
+            new ArmorItem(ModArmorMaterials.SHROOMITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SHROOMITE_BOOTS = registerItem("shroomite_boots",
+            new ArmorItem(ModArmorMaterials.SHROOMITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item JUNGLE_MUSIC_DISC = registerItem("jungle_music_disc",
             new MusicDiscItem(7, ModSounds.JUNGLE, new FabricItemSettings().maxCount(1), 164));

@@ -10,8 +10,10 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    CHLOROPHYTE("chlorophyte", 35, new int[] {3, 6, 8, 3}, 12,
-            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.2f, () -> Ingredient.ofItems(ModItems.CHLOROPHYTE_INGOT))
+    CHLOROPHYTE("chlorophyte", 35, new int[] {3, 8, 6, 3}, 12,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.2f, () -> Ingredient.ofItems(ModItems.CHLOROPHYTE_INGOT)),
+    SHROOMITE("shroomite", 40, new int[] {3, 8, 6, 3}, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.5f, 0.3f, () -> Ingredient.ofItems(ModItems.SHROOMITE_INGOT))
     ;
 
     private final String name;
