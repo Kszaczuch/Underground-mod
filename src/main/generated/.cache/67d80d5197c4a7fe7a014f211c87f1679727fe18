@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-22T22:15:37.0237542	Underground Mod/Model Definitions
+// 1.20.1	2024-11-23T11:40:47.3814685	Underground Mod/Model Definitions
 cb152234762faa2e72b739132457c03d90d3aa41 assets\undergroundmod\models\item\chlorophyte_leggings.json
 06480f0fac8bad752413fc4c2caa27f9257e52d0 assets\undergroundmod\models\item\jungle_music_disc.json
 2296a771007387bbc4a0a1f997b08db849d0aad3 assets\undergroundmod\models\item\chlorophyte_boots_diamond_trim.json
@@ -71,8 +71,8 @@ f01cb63cfab537574b98fdbdb6c0784d1e0a274e assets\undergroundmod\models\item\chlor
 4080c71bc42d42404c3b1c30f8b09b8d8ed461cf assets\undergroundmod\models\item\chlorophyte_chestplate_emerald_trim.json
 a85597c1348326cbd963cfd821e5108d087ffa27 assets\undergroundmod\models\item\chlorophyte_chestplate_lapis_trim.json
 631361ba7dae07c6e3c8642486a94e8349c4f1dc assets\undergroundmod\models\item\underground_desert_music_disc.json
-8c8f2be868a3007638fc9ba80c87d4b7316bcab2 assets\undergroundmod\models\item\chlorophyte_pickaxe.json
 c0c2fa270a1f50230b8d57d9e40f90cc8dfbecb8 assets\undergroundmod\blockstates\deepslate_chlorophyte_ore.json
+8c8f2be868a3007638fc9ba80c87d4b7316bcab2 assets\undergroundmod\models\item\chlorophyte_pickaxe.json
 a024726f98c04ff59459490c7ea3472c8c62a7d3 assets\undergroundmod\models\item\shroomite_chestplate_netherite_trim.json
 aca15ae82fa857d8c5d5fa0a6a205fd39c6a23aa assets\undergroundmod\models\item\shroomite_leggings_copper_trim.json
 5d47ed8cc1cbcd0d7fae1b84d21a3754758d8d82 assets\undergroundmod\models\item\chlorophyte_leggings_lapis_trim.json

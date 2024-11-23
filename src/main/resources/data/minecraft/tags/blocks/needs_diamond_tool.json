@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-      "undergroundmod:chlorophyte_block",
-      "undergroundmod:shroomite_block",
-      "undergroundmod:chlorophyte_ore",
-      "undergroundmod:deepslate_chlorophyte_ore"
-  ]
-}
