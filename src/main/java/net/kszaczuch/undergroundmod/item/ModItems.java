@@ -20,25 +20,25 @@ public class ModItems {
     public static final Item SHROOMITE_UPGRADE_SMITHING_TEMPLATE = registerItem("shroomite_upgrade_smithing_template", new Item(new FabricItemSettings()));
 
     public static final Item CHLOROPHYTE_PICKAXE = registerItem("chlorophyte_pickaxe",
-            new PickaxeItem(ModToolMaterial.CHLOROPHYTE, 0, -2.3f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.CHLOROPHYTE, 0, -2.6f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_SWORD = registerItem("chlorophyte_sword",
-            new SwordItem(ModToolMaterial.CHLOROPHYTE, 3, -1.9f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.CHLOROPHYTE, 3, -2.2f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_SHOVEL = registerItem("chlorophyte_shovel",
-            new ShovelItem(ModToolMaterial.CHLOROPHYTE, 3, 0.5f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.CHLOROPHYTE, 3, -2.8f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_HOE = registerItem("chlorophyte_hoe",
-            new HoeItem(ModToolMaterial.CHLOROPHYTE, 1, 1.0f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.CHLOROPHYTE, 1, 0.2f, new FabricItemSettings()));
     public static final Item CHLOROPHYTE_AXE = registerItem("chlorophyte_axe",
-            new AxeItem(ModToolMaterial.CHLOROPHYTE, 4.5f, -2.5f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.CHLOROPHYTE, 4.5f, -2.8f, new FabricItemSettings()));
     public static final Item SHROOMITE_PICKAXE = registerItem("shroomite_pickaxe",
-            new PickaxeItem(ModToolMaterial.SHROOMITE, 2, -2.3f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.SHROOMITE, 2, -2.6f, new FabricItemSettings()));
     public static final Item SHROOMITE_AXE = registerItem("shroomite_axe",
-            new AxeItem(ModToolMaterial.SHROOMITE, 6.0f, -2.5f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.SHROOMITE, 6.0f, -2.8f, new FabricItemSettings()));
     public static final Item SHROOMITE_SWORD = registerItem("shroomite_sword",
-            new SwordItem(ModToolMaterial.SHROOMITE, 4, -1.9f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.SHROOMITE, 4, -2.2f, new FabricItemSettings()));
     public static final Item SHROOMITE_SHOVEL = registerItem("shroomite_shovel",
-            new ShovelItem(ModToolMaterial.SHROOMITE, 2, -2.5f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.SHROOMITE, 2, -2.8f, new FabricItemSettings()));
     public static final Item SHROOMITE_HOE = registerItem("shroomite_hoe",
-            new HoeItem(ModToolMaterial.SHROOMITE, -3, 0, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.SHROOMITE, -3, 0.2f, new FabricItemSettings()));
 
     public static final Item CHLOROPHYTE_HELMET = registerItem("chlorophyte_helmet",
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.HELMET, new FabricItemSettings()));
