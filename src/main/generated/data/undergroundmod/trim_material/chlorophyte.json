@@ -1,0 +1,9 @@
+{
+  "asset_name": "chlorophyte",
+  "description": {
+    "color": "#5DBE08",
+    "translate": "trim_material.undergroundmod.chlorophyte"
+  },
+  "ingredient": "undergroundmod:chlorophyte_ingot",
+  "item_model_index": 0.7
+}

@@ -49,5 +49,8 @@
   "itemgroup.items" : "Underground Mod Items",
   "itemgroup.tools" : "Underground Mod Tools",
   "itemgroup.blocks" : "Underground Mod Blocks",
-  "itemgroup.combat" : "Underground Mod Combat"
+  "itemgroup.combat" : "Underground Mod Combat",
+
+  "trim_material.tutorialmod.chlorophyte": "Chlorophyte Material",
+  "trim_material.tutorialmod.shroomite": "Shroomite Material"
 }

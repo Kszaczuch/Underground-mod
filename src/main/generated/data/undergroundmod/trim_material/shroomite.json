@@ -1,0 +1,9 @@
+{
+  "asset_name": "shroomite",
+  "description": {
+    "color": "#2C1AE9",
+    "translate": "trim_material.undergroundmod.shroomite"
+  },
+  "ingredient": "undergroundmod:shroomite_ingot",
+  "item_model_index": 0.9
+}
