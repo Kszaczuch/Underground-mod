@@ -22,6 +22,9 @@
 		],
 		"fabric-datagen": [
 			"net.kszaczuch.undergroundmod.UndergroundModDataGenerator"
+		],
+		"rei_client": [
+			"net.kszaczuch.undergroundmod.compat.UndergroundModREIClientPlugin"
 		]
 	},
 	"mixins": [
