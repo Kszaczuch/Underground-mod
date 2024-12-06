@@ -10,7 +10,9 @@ public enum ModToolMaterial implements ToolMaterial {
     CHLOROPHYTE(MiningLevels.DIAMOND, 1800, 9.0f, 3.5f, 12,
             () -> Ingredient.ofItems(ModItems.CHLOROPHYTE_INGOT)),
     SHROOMITE(MiningLevels.NETHERITE, 2500, 11.0f, 5.0f, 15,
-            () -> Ingredient.ofItems(ModItems.SHROOMITE_INGOT))
+            () -> Ingredient.ofItems(ModItems.SHROOMITE_INGOT)),
+    SOLAR(MiningLevels.NETHERITE, 3000, 14.0f, 8.0f, 10,
+            () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT))
     ;
 
 

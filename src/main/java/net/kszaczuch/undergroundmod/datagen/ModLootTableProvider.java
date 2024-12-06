@@ -24,6 +24,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.CHLOROPHYTE_BLOCK);
         addDrop(ModBlocks.SHROOMITE_BLOCK);
+        addDrop(ModBlocks.LUMINITE_BRICKS);
         addDrop(ModBlocks.JUNGLE_SPORES);
         addDrop(ModBlocks.SKY_BLUE_FLOWER);
         addDrop(ModBlocks.LIFE_FRUIT);
@@ -31,6 +32,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.CHLOROPHYTE_ORE, chlorophyteOreDrops(ModBlocks.CHLOROPHYTE_ORE, ModItems.RAW_CHLOROPHYTE));
         addDrop(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE, chlorophyteOreDrops(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE, ModItems.RAW_CHLOROPHYTE));
+        addDrop(ModBlocks.LUMINITE_ORE, chlorophyteOreDrops(ModBlocks.LUMINITE_ORE, ModItems.RAW_LUMINITE));
 
     }
     public LootTable.Builder chlorophyteOreDrops(Block drop, Item item) {
@@ -40,6 +42,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 				drop,
 				ItemEntry.builder(item)
 					.apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))
+					.apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))
+			)
+		);
+	}
+    public LootTable.Builder luminiteOreDrops(Block drop, Item item) {
+		return dropsWithSilkTouch(
+			drop,
+			(LootPoolEntry.Builder<?>)this.applyExplosionDecay(
+				drop,
+				ItemEntry.builder(item)
+					.apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 3.0F)))
 					.apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))
 			)
 		);

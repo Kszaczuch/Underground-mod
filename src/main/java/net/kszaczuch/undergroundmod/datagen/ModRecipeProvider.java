@@ -29,8 +29,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> consumer) {
         offerSmelting(consumer, CHLOROPHYTE_SMELTABLES, RecipeCategory.MISC, ModItems.CHLOROPHYTE_INGOT, 1.0f, 200, "chlorophyte");
         offerBlasting(consumer, CHLOROPHYTE_SMELTABLES, RecipeCategory.MISC, ModItems.CHLOROPHYTE_INGOT, 1.0f, 100, "chlorophyte");
+        offerSmelting(consumer, List.of(ModItems.RAW_LUMINITE), RecipeCategory.MISC, ModItems.LUMINITE_INGOT, 2.0f, 200, "luminite");
+        offerBlasting(consumer, List.of(ModItems.RAW_LUMINITE), RecipeCategory.MISC, ModItems.LUMINITE_INGOT, 2.0f, 100, "luminite");
         offerReversibleCompactingRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.CHLOROPHYTE_INGOT, RecipeCategory.DECORATIONS, ModBlocks.CHLOROPHYTE_BLOCK);
         offerReversibleCompactingRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.SHROOMITE_INGOT, RecipeCategory.DECORATIONS, ModBlocks.SHROOMITE_BLOCK);
+        offerReversibleCompactingRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.LUMINITE_INGOT, RecipeCategory.DECORATIONS, ModBlocks.LUMINITE_BRICKS);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.BLUE_MUSHROOM)
                 .input(Items.DIAMOND)
@@ -54,6 +57,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.BROWN_MUSHROOM), conditionsFromItem(Items.BROWN_MUSHROOM))
                 .criterion(hasItem(ModItems.CHLOROPHYTE_INGOT), conditionsFromItem(ModItems.CHLOROPHYTE_INGOT))
                 .offerTo(consumer, new Identifier("shroomite_ingot_from_items"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SOLAR_FRAGMENT)
+                .input(Items.BLAZE_POWDER)
+                .input(Items.NETHER_STAR)
+                .criterion(hasItem(Items.BLAZE_POWDER), conditionsFromItem(Items.BLAZE_POWDER))
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                        .offerTo(consumer, new Identifier(getRecipeName(ModItems.SOLAR_FRAGMENT)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STARDUST_FRAGMENT)
+                .input(Items.GLOW_INK_SAC)
+                .input(Items.NETHER_STAR)
+                .criterion(hasItem(Items.GLOW_INK_SAC), conditionsFromItem(Items.GLOW_INK_SAC))
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                        .offerTo(consumer, new Identifier(getRecipeName(ModItems.STARDUST_FRAGMENT)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.NEBULA_FRAGMENT)
+                .input(Items.AMETHYST_SHARD)
+                .input(Items.NETHER_STAR)
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                        .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_FRAGMENT)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VORTEX_FRAGMENT)
+                .input(Items.ENDER_PEARL)
+                .input(Items.NETHER_STAR)
+                .criterion(hasItem(Items.ENDER_PEARL), conditionsFromItem(Items.ENDER_PEARL))
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                        .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_FRAGMENT)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CHLOROPHYTE_PICKAXE, 1)
                 .pattern("SSS")
