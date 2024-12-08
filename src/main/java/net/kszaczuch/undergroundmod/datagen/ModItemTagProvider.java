@@ -18,7 +18,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.CHLOROPHYTE_HELMET,ModItems.CHLOROPHYTE_CHESTPLATE,ModItems.CHLOROPHYTE_LEGGINGS,ModItems.CHLOROPHYTE_BOOTS,
-                        ModItems.SHROOMITE_HELMET,ModItems.SHROOMITE_CHESTPLATE,ModItems.SHROOMITE_LEGGINGS,ModItems.SHROOMITE_BOOTS);
+                        ModItems.SHROOMITE_HELMET,ModItems.SHROOMITE_CHESTPLATE,ModItems.SHROOMITE_LEGGINGS,ModItems.SHROOMITE_BOOTS,
+                        ModItems.SOLAR_HELMET,ModItems.SOLAR_CHESTPLATE,ModItems.SOLAR_LEGGINGS,ModItems.SOLAR_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_DESERT_MUSIC_DISC,ModItems.UNDERGROUND_ICE_MUSIC_DISC);
@@ -26,6 +27,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC,ModItems.UNDERGROUND_DESERT_MUSIC_DISC,ModItems.UNDERGROUND_ICE_MUSIC_DISC);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.CHLOROPHYTE_INGOT,ModItems.SHROOMITE_INGOT);
+                .add(ModItems.CHLOROPHYTE_INGOT,ModItems.SHROOMITE_INGOT,ModItems.LAST_PRISM,ModItems.LUMINITE_INGOT,
+                        ModItems.SOLAR_FRAGMENT,ModItems.NEBULA_FRAGMENT,ModItems.STARDUST_FRAGMENT,ModItems.VORTEX_FRAGMENT);
     }
 }

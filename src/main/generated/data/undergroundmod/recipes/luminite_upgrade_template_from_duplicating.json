@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "undergroundmod:luminite_ingot"
+    },
+    "N": {
+      "item": "undergroundmod:luminite_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    " I ",
+    "INI",
+    " I "
+  ],
+  "result": {
+    "count": 2,
+    "item": "undergroundmod:luminite_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

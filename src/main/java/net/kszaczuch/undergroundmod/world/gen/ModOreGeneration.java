@@ -10,5 +10,7 @@ public class ModOreGeneration {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.CHLOROPHYTE_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.LUMINITE_ORE_PLACED_KEY);
     }
 }

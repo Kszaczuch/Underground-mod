@@ -1,4 +1,5 @@
-// 1.20.1	2024-11-24T13:44:15.142787	Underground Mod/Block Loot Tables
+// 1.20.1	2024-12-08T15:30:47.8336518	Underground Mod/Block Loot Tables
+0a90d1bcd60877d04a543ffc6d0dc320eaa53789 data\undergroundmod\loot_tables\blocks\luminite_bricks.json
 b15210b421c2ce9072d7b631a68eac8fbd9a3635 data\undergroundmod\loot_tables\blocks\shroomite_block.json
 f9dde9da34ea07d73ae3de455193f07af7456b6d data\undergroundmod\loot_tables\blocks\life_fruit.json
 8338834f05fa28d39dff0473cdbea27576560da6 data\undergroundmod\loot_tables\blocks\chlorophyte_block.json
@@ -7,3 +8,4 @@ a940ea67320dd43a641395e537043fce2f405c33 data\undergroundmod\loot_tables\blocks\
 4171c44ee9f61d26ec70e969825b51e710b43d1d data\undergroundmod\loot_tables\blocks\blue_mushroom.json
 da5ae90884af6e0f9e59989fe9b7f64c13ecf08f data\undergroundmod\loot_tables\blocks\jungle_spores.json
 edd1edf74740cc8d09d198e24b395b3faad25737 data\undergroundmod\loot_tables\blocks\sky_blue_flower.json
+521bd0523d871022fa1cebbdff0200c0da75aea4 data\undergroundmod\loot_tables\blocks\luminite_ore.json

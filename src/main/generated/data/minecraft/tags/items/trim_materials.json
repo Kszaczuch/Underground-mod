@@ -2,6 +2,12 @@
   "replace": false,
   "values": [
     "undergroundmod:chlorophyte_ingot",
-    "undergroundmod:shroomite_ingot"
+    "undergroundmod:shroomite_ingot",
+    "undergroundmod:last_prism",
+    "undergroundmod:luminite_ingot",
+    "undergroundmod:solar_fragment",
+    "undergroundmod:nebula_fragment",
+    "undergroundmod:stardust_fragment",
+    "undergroundmod:vortex_fragment"
   ]
 }

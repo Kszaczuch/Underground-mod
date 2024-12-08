@@ -1,0 +1,9 @@
+{
+  "asset_name": "nebula",
+  "description": {
+    "color": "#FF36FF",
+    "translate": "trim_material.undergroundmod.nebula"
+  },
+  "ingredient": "undergroundmod:nebula_fragment",
+  "item_model_index": 1.0
+}

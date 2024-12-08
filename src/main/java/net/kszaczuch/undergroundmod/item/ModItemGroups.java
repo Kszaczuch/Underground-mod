@@ -24,6 +24,13 @@ public class ModItemGroups {
                         entries.add(ModItems.CHLOROPHYTE_INGOT);
                         entries.add(ModItems.SHROOMITE_INGOT);
                         entries.add(ModItems.SHROOMITE_UPGRADE_SMITHING_TEMPLATE);
+                        entries.add(ModItems.LUMINITE_INGOT);
+                        entries.add(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE);
+                        entries.add(ModItems.LAST_PRISM);
+                        entries.add(ModItems.SOLAR_FRAGMENT);
+                        entries.add(ModItems.STARDUST_FRAGMENT);
+                        entries.add(ModItems.NEBULA_FRAGMENT);
+                        entries.add(ModItems.VORTEX_FRAGMENT);
                         entries.add(ModBlocks.BLUE_MUSHROOM);
                         entries.add(ModItems.JUNGLE_MUSIC_DISC);
                         entries.add(ModItems.UNDERGROUND_JUNGLE_MUSIC_DISC);
@@ -41,6 +48,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHLOROPHYTE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_CHLOROPHYTE_ORE);
                         entries.add(ModBlocks.SHROOMITE_BLOCK);
+                        entries.add(ModBlocks.LUMINITE_BRICKS);
+                        entries.add(ModBlocks.LUMINITE_ORE);
 
                     })).build());
 
@@ -57,6 +66,14 @@ public class ModItemGroups {
                         entries.add(ModItems.SHROOMITE_SHOVEL);
                         entries.add(ModItems.SHROOMITE_AXE);
                         entries.add(ModItems.SHROOMITE_HOE);
+                        entries.add(ModItems.LUMINITE_PICKAXE);
+                        entries.add(ModItems.LUMINITE_SHOVEL);
+                        entries.add(ModItems.LUMINITE_AXE);
+                        entries.add(ModItems.LUMINITE_HOE);
+                        entries.add(ModItems.SOLAR_PICKAXE);
+                        entries.add(ModItems.SOLAR_SHOVEL);
+                        entries.add(ModItems.SOLAR_AXE);
+                        entries.add(ModItems.SOLAR_HOE);
 
                     })).build());
 
@@ -77,6 +94,19 @@ public class ModItemGroups {
                         entries.add(ModItems.SHROOMITE_CHESTPLATE);
                         entries.add(ModItems.SHROOMITE_LEGGINGS);
                         entries.add(ModItems.SHROOMITE_BOOTS);
+                        entries.add(ModItems.LUMINITE_SWORD);
+                        entries.add(ModItems.LUMINITE_AXE);
+                        entries.add(ModItems.LUMINITE_HELMET);
+                        entries.add(ModItems.LUMINITE_CHESTPLATE);
+                        entries.add(ModItems.LUMINITE_LEGGINGS);
+                        entries.add(ModItems.LUMINITE_BOOTS);
+                        entries.add(ModItems.SOLAR_SWORD);
+                        entries.add(ModItems.SOLAR_AXE);
+                        entries.add(ModItems.SOLAR_HELMET);
+                        entries.add(ModItems.SOLAR_CHESTPLATE);
+                        entries.add(ModItems.SOLAR_LEGGINGS);
+                        entries.add(ModItems.SOLAR_BOOTS);
+
 
                     })).build());
 

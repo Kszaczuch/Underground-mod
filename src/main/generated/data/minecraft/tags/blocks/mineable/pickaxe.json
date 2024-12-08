@@ -3,7 +3,9 @@
   "values": [
     "undergroundmod:chlorophyte_block",
     "undergroundmod:shroomite_block",
+    "undergroundmod:luminite_bricks",
     "undergroundmod:chlorophyte_ore",
+    "undergroundmod:luminite_ore",
     "undergroundmod:deepslate_chlorophyte_ore"
   ]
 }

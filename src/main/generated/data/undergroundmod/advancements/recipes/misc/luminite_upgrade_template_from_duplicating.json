@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_luminite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:luminite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_luminite_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:luminite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:luminite_upgrade_template_from_duplicating"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_luminite_ingot",
+      "has_luminite_upgrade_smithing_template",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:luminite_upgrade_template_from_duplicating"
+    ]
+  },
+  "sends_telemetry_event": false
+}

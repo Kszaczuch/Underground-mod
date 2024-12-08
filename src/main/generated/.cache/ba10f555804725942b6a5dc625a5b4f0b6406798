@@ -1,3 +1,5 @@
-// 1.20.1	2024-11-24T13:44:15.1503067	Underground Mod/World Gen
+// 1.20.1	2024-12-08T15:30:47.8465121	Underground Mod/World Gen
+c9ff897ffde12d38907ffb0d9bbf9c471d3d4c0f data\undergroundmod\worldgen\placed_feature\luminite_ore_placed.json
 7057cce08a7fbd42f8710ad11ad6e83f1d3ed475 data\undergroundmod\worldgen\placed_feature\chlorophyte_ore_placed.json
+419ac65d942db448458e0a9b39e039f244a950ca data\undergroundmod\worldgen\configured_feature\luminite_ore.json
 d20dd99c5fc0d4eaf2dbf273d2e5f60f820cd2ed data\undergroundmod\worldgen\configured_feature\chlorophyte_ore.json

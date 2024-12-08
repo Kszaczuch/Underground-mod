@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_luminite_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:luminite_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_luminite_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:luminite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_solar_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:solar_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:solar_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_luminite_upgrade_smithing_template",
+      "has_luminite_sword",
+      "has_solar_fragment",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:solar_sword"
+    ]
+  },
+  "sends_telemetry_event": false
+}

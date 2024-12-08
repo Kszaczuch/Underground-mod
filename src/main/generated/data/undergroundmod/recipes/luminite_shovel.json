@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "undergroundmod:luminite_ingot"
+    }
+  },
+  "pattern": [
+    "S",
+    "R",
+    "R"
+  ],
+  "result": {
+    "item": "undergroundmod:luminite_shovel"
+  },
+  "show_notification": true
+}

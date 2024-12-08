@@ -1,4 +1,4 @@
-TODO: recipes: luminite items, solar items, last prism
-TODO: luminite ore gen
-TODO: armor trims
-TODO: add items and blocks to item groups
+recipes: luminite items, solar items, last prism -- DONE
+luminite ore gen -- DONE
+armor trims -- DONE
+add items and blocks to item groups -- DONE

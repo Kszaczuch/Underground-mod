@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_last_prism": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:last_prism"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_luminite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:luminite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_netherite_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:luminite_upgrade_smithing_template"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_upgrade_smithing_template",
+      "has_luminite_ingot",
+      "has_last_prism",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:luminite_upgrade_smithing_template"
+    ]
+  },
+  "sends_telemetry_event": false
+}

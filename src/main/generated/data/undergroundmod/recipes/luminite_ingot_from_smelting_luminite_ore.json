@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "luminite",
+  "ingredient": {
+    "item": "undergroundmod:luminite_ore"
+  },
+  "result": "undergroundmod:luminite_ingot"
+}

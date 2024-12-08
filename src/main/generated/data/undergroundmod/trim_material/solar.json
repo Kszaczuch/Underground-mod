@@ -1,0 +1,9 @@
+{
+  "asset_name": "solar",
+  "description": {
+    "color": "#F99B22",
+    "translate": "trim_material.undergroundmod.solar"
+  },
+  "ingredient": "undergroundmod:solar_fragment",
+  "item_model_index": 0.6
+}

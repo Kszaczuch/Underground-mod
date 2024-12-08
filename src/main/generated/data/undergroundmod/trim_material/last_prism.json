@@ -1,0 +1,9 @@
+{
+  "asset_name": "last_prism",
+  "description": {
+    "color": "#E1CEE3",
+    "translate": "trim_material.undergroundmod.last_prism"
+  },
+  "ingredient": "undergroundmod:last_prism",
+  "item_model_index": 0.1
+}

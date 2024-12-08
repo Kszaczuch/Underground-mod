@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_luminite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:luminite_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nebula_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:nebula_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_solar_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:solar_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stardust_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:stardust_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:last_prism"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vortex_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergroundmod:vortex_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_solar_fragment",
+      "has_vortex_fragment",
+      "has_stardust_fragment",
+      "has_nebula_fragment",
+      "has_luminite_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:last_prism"
+    ]
+  },
+  "sends_telemetry_event": false
+}

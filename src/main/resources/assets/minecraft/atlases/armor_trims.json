@@ -55,7 +55,13 @@
         "diamond_darker": "trims/color_palettes/diamond_darker",
         "netherite_darker": "trims/color_palettes/netherite_darker",
         "chlorophyte": "undergroundmod:trims/color_palettes/chlorophyte",
-        "shroomite": "undergroundmod:trims/color_palettes/shroomite"
+        "shroomite": "undergroundmod:trims/color_palettes/shroomite",
+        "last_prism": "undergroundmod:trims/color_palettes/last_prism",
+        "luminite": "undergroundmod:trims/color_palettes/luminite",
+        "solar": "undergroundmod:trims/color_palettes/solar",
+        "stardust": "undergroundmod:trims/color_palettes/stardust",
+        "nebula": "undergroundmod:trims/color_palettes/nebula",
+        "vortex": "undergroundmod:trims/color_palettes/vortex"
       }
     }
   ]

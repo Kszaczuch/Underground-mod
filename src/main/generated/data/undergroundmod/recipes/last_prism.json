@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "undergroundmod:stardust_fragment"
+    },
+    "L": {
+      "item": "undergroundmod:luminite_ingot"
+    },
+    "N": {
+      "item": "undergroundmod:nebula_fragment"
+    },
+    "S": {
+      "item": "undergroundmod:solar_fragment"
+    },
+    "V": {
+      "item": "undergroundmod:vortex_fragment"
+    }
+  },
+  "pattern": [
+    " S ",
+    "VLD",
+    " N "
+  ],
+  "result": {
+    "item": "undergroundmod:last_prism"
+  },
+  "show_notification": true
+}

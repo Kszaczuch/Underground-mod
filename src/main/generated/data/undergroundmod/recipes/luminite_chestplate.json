@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "undergroundmod:luminite_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "item": "undergroundmod:luminite_chestplate"
+  },
+  "show_notification": true
+}

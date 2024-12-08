@@ -8,6 +8,10 @@
     "undergroundmod:shroomite_helmet",
     "undergroundmod:shroomite_chestplate",
     "undergroundmod:shroomite_leggings",
-    "undergroundmod:shroomite_boots"
+    "undergroundmod:shroomite_boots",
+    "undergroundmod:solar_helmet",
+    "undergroundmod:solar_chestplate",
+    "undergroundmod:solar_leggings",
+    "undergroundmod:solar_boots"
   ]
 }

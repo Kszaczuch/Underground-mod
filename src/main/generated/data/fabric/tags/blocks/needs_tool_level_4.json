@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "undergroundmod:shroomite_block"
+    "undergroundmod:shroomite_block",
+    "undergroundmod:luminite_ore",
+    "undergroundmod:luminite_bricks"
   ]
 }

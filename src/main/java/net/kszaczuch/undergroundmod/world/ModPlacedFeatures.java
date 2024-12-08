@@ -16,6 +16,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> CHLOROPHYTE_ORE_PLACED_KEY = registerKey("chlorophyte_ore_placed");
+    public static final RegistryKey<PlacedFeature> LUMINITE_ORE_PLACED_KEY = registerKey("luminite_ore_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -23,6 +24,9 @@ public class ModPlacedFeatures {
         register(context, CHLOROPHYTE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CHLOROPHYTE_ORE_KEY ),
                 ModOrePlacement.modifiersWithCount(2, // veins per chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-30), YOffset.fixed(30))));
+        register(context, LUMINITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.LUMINITE_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(3,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(0),YOffset.fixed(64))));
 
     }
 

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "undergroundmod:solar_fragment"
+  },
+  "base": {
+    "item": "undergroundmod:luminite_axe"
+  },
+  "result": {
+    "item": "undergroundmod:solar_axe"
+  },
+  "template": {
+    "item": "undergroundmod:luminite_upgrade_smithing_template"
+  }
+}

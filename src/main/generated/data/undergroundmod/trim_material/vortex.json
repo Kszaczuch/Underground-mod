@@ -1,0 +1,9 @@
+{
+  "asset_name": "vortex",
+  "description": {
+    "color": "#22DD97",
+    "translate": "trim_material.undergroundmod.vortex"
+  },
+  "ingredient": "undergroundmod:vortex_fragment",
+  "item_model_index": 0.8
+}

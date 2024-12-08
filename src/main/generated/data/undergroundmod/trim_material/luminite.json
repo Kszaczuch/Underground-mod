@@ -1,0 +1,9 @@
+{
+  "asset_name": "luminite",
+  "description": {
+    "color": "#45A777",
+    "translate": "trim_material.undergroundmod.luminite"
+  },
+  "ingredient": "undergroundmod:luminite_ingot",
+  "item_model_index": 0.7
+}

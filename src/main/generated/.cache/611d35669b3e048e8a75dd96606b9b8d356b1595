@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-24T13:44:15.1417005	Underground Mod/Tags for minecraft:block
-f2b34767b2f8b45155f248cf0626fa7423bce5a0 data\fabric\tags\blocks\needs_tool_level_4.json
+// 1.20.1	2024-12-08T15:30:47.8150009	Underground Mod/Tags for minecraft:block
+807ffc0b3aeb63005509c5fb7616db06f1eb0492 data\fabric\tags\blocks\needs_tool_level_4.json
 5f47d4648db09da3a4e567b7ec40edf65593d4ef data\minecraft\tags\blocks\needs_diamond_tool.json
-d7b4306382d8f2f28509c4db762526ede6500b4c data\minecraft\tags\blocks\mineable\pickaxe.json
+f59537cec98f721ec7e3453211b05f9674c4ff31 data\minecraft\tags\blocks\mineable\pickaxe.json
